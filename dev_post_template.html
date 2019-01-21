@@ -1,0 +1,33 @@
+---
+title: "{{POST_TITLE}}"
+date: "{{POST_DATE}}"
+output:
+  md_document:
+    variant: markdown_github+tex_math_dollars+yaml_metadata_block
+categories: [{{POST_CATEGORIES}}]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, out.width = 375)
+options(max.print=50)
+
+rm(list = ls())
+
+# packages
+
+# directories
+
+# custom functions
+
+
+```
+
+# some notes:
+#    assets folder is located here: {{ASSETS_FOLDER}}
+#	 use it in all your links to post-related media
+#
+#    CSS properties you always forget:
+#       ![](path_to_img){:width="600px" .align-center}
+#
+#    hyperlinks:
+#       (link text)[hyperlink]
