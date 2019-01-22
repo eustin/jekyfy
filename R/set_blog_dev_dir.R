@@ -1,3 +1,4 @@
+#' @export
 set_blog_dev_dir <- function(blog_dev_dir) {
 
   # to do: check valid dir for system
