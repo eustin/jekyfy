@@ -1,5 +1,5 @@
 #' @export
-create_blog_env <- function(blog_dev_dir = NULL, blog_prod_dir = NULL,
+set_blog_env <- function(blog_dev_dir = NULL, blog_prod_dir = NULL,
                             post_title = NULL, post_date = NULL,
                             post_categories = NULL) {
 
