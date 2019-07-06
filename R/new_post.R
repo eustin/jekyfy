@@ -1,3 +1,5 @@
+#' @export
+# create a brand new post!
 
 new_post <- function() {
   require(whisker)
